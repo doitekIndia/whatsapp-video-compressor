@@ -2,7 +2,7 @@ import streamlit as st
 import subprocess
 import tempfile
 import os
-
+st.markdown("### Created by Nitin Khatri YT [@doitek](https://www.youtube.com/@doitek)")
 st.set_page_config(page_title="WhatsApp Video Helper", layout="centered")
 st.title("📱 WhatsApp Video Helper")
 st.markdown("""
