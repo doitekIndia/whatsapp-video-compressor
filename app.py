@@ -4,18 +4,11 @@ import tempfile
 import os
 import re
 
-# ====================================================
-# 1️⃣ PAGE SETUP
-# ====================================================
 st.set_page_config(page_title="WhatsApp Video Helper", layout="centered")
 st.title("📱 WhatsApp Video Helper")
 
-# ====================================================
-# 2️⃣ DARK MODE TOGGLE
-# ====================================================
 dark_mode = st.checkbox("🌙 Dark Mode", value=False)
 
-# Inject CSS for dark/light mode
 if dark_mode:
     st.markdown("""
         <style>
@@ -35,9 +28,6 @@ else:
         </style>
     """, unsafe_allow_html=True)
 
-# ====================================================
-# 3️⃣ INTRODUCTION & FFmpeg LOCAL INSTRUCTIONS
-# ====================================================
 st.write("""
 Easily **convert and compress videos** for WhatsApp sharing.
 - Normal video (<16 MB) ✅
