@@ -35,7 +35,7 @@ Easily **convert and compress videos** for WhatsApp sharing.
 - Compatible with any format FFmpeg supports
 """)
 
-st.info('''
+st.info("""
 ⚠️ **Large Video Warning**  
 Videos over **300 MB** may fail to upload.  
 Compress locally first if needed:
